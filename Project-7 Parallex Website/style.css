@@ -1,0 +1,122 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 26px;
+  font-family: "Lato", sans-serif;
+  height: 100%;
+  font-weight: 400;
+  color: #666;
+}
+
+.pImage {
+  background: url(images/image1.png);
+  height: 100vh;
+  
+}
+
+.pImage2 {
+  background: url(images/image2.png);
+  height: 500px;
+
+}
+.pImage3 {
+  background: url(images/image3.png);
+  height: 500px;
+
+}
+.pImage,
+.pImage2,
+.pImage3 {
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+.spTxt {
+  background-color: rgb(66, 64, 64);
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 11px;
+  word-spacing: 20px;
+  padding: 1.5rem;
+}
+
+/* Section 2 */
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 0 6rem;
+    text-align: center;
+    /* height: 70vh; */
+}
+.para1{
+    font-size: 15px;
+    line-height: 20px;
+    /* margin: 0rem 0rem 1rem 0rem; */
+    position: relative;
+    bottom: 18px;
+}
+.h11{
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+/* section 3 */
+.ptext2{
+    background-color: rgba(52, 47, 47, 0.277);
+}
+.sec2{
+  background-color: rgb(52, 52, 52);
+  color: white;
+}
+
+/* Section 4 */
+.ptext3{
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+
+/* Section 5 */
+.pImage4{
+  background: url(images/image1.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.ptext5{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.sptext5{
+  background-color: rgb(66, 64, 64);
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  padding: 1.3rem;
+}

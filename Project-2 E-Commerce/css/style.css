@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
+html body {
+  font-family: sans-serif "Roboto";
+}
+
+/* Nav Bar  */
+.nav-h {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.nav-list {
+  padding-top: 14px;
+}
+
+.nav-ico {
+  font-size: 12px;
+}
+
+.nav-i1 {
+  font-size: 24px;
+}
+
+.nav-i2 {
+  font-size: 24px;
+}
+
+.nav-list li {
+  font-size: 16px;
+}
+
+.search {
+  border: none;
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  /* width: 100%; */
+  font-size: 14px;
+  padding: 10px 0px;
+}
+.se-ic {
+  background-color: #f0f0f0;
+  height: 40%;
+  width: 100%;
+  border-radius: 25px;
+  padding: 0 5px;
+}
+.se-ic i {
+  opacity: 40%;
+  font-size: 18px;
+  padding: 0 12px;
+}
+
+.icons {
+  align-items: center;
+  gap: 14px;
+  justify-content: center;
+}
+
+/* Home-Page  */
+.home {
+  background-color: #f2f0f1;
+}
+.home-h {
+  margin: 4rem 0 1rem 0;
+  font-size: 64px;
+  font-weight: bold;
+}
+.imge {
+  margin: 3rem 0 0 0;
+  height: 560px;
+  width: 560px;
+}
+
+.para p {
+  opacity: 60%;
+}
+
+.btn button {
+  padding: 16px 54px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 60px;
+}
+
+.btn {
+  margin: 12px 0 0 0;
+}
+
+.h-paras {
+  padding: 25px 0 0 0;
+  gap: 78px;
+}
+
+.h-paras h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.h-paras p {
+  font-size: 14px;
+  opacity: 60%;
+}
+
+.brandes {
+  background-color: black;
+}
+
+.brand {
+  padding: 42px 0;
+}
+
+/* New-Arrival  */
+.N-Arival {
+  margin: 72px 0 0 0;
+}
+.Ariv {
+  padding: 0 0 55px 0px;
+}
+.Ariv h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.imges {
+  height: 260px;
+  width: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0eeed;
+  border-radius: 20px;
+}
+
+.kard img {
+  height: 170px;
+  width: 160px;
+}
+
+.kard h2 {
+  padding: 16px 0 0 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.stars i {
+  padding: 8px 0 8px 0;
+  color: #ffc633;
+}
+.stars span,
+small {
+  font-size: 14px;
+}
+.stars small {
+  opacity: 60%;
+}
+
+.price span {
+  font-size: 24px;
+  font-weight: bold;
+}
+.blur {
+  opacity: 60%;
+  text-decoration: line-through;
+  margin: 0 0 0 10px;
+}
+
+.price button {
+  border: none;
+  background-color: #ff000027;
+  color: #ff3333;
+  border-radius: 60px;
+  font-size: 12px;
+  margin: 0 0 0 10px;
+  padding: 6px 14px;
+}
+
+.la-bt {
+  font-size: 16px;
+  padding: 10px 40px;
+  border-radius: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.189);
+  margin: 36px 0 0 0;
+}
+hr {
+  margin-top: 3rem;
+}
+.t-sell {
+  margin-top: 3rem;
+}
+
+/* Browse Section */
+.browse {
+  margin: 80px 0 0 0;
+}
+.br-h h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  margin: 0 0 2rem 0;
+}
+
+.br-se {
+  padding: 70px 64px;
+  background-color: #f0f0f0;
+  border-radius: 40px;
+}
+
+.pic1 {
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.pic1 img {
+  border-radius: 20px;
+}
+.pic1 h1 {
+  padding: 35px;
+}
+.pic {
+  display: flex;
+  gap: 12rem;
+  margin: 64px 0 0 0;
+}
+.pic h1{
+  padding: 35px;
+  background-color: #ffffff;
+}
+.pic2 {
+  width: 500px;
+  background-color: #ffffff;
+}
+.pic2 img{
+  border-radius: 20px;
+}
+
+.pic3 {
+  width: 600px;
+  background-color: #ffffff;
+}
+.pic3 img {
+  border-radius: 20px;
+}
+.pic3 h1 {
+  margin: 35px;
+}
+.pic3,
+.pic4 {
+  border-radius: 20px;
+}
+
+.pic4 {
+  background-color: #ffffff;
+}
+.pic4 img {
+  border-radius: 20px;
+}
+.pic4 h1 {
+  margin: 35px 0 0 35px;
+}
+
+.pi {
+  margin: 20px 0 0 0;
+  gap: 4.3rem;
+}
+
+/* HAPPY CLIENT SECTION  */
+.happy-client {
+  margin: 80px 0 0 0;
+}
+.car-cont {
+  position: relative;
+  width: 100%;
+  /* overflow: hidden; */
+}
+
+.car1 {
+  border: 1px solid rgba(0, 0, 0, 0.237);
+  padding: 32px 28px;
+  border-radius: 20px;
+  margin: 40px 0 0 0;
+  position: relative;
+  transition: 0.3s ease;
+} 
+
+.car1 h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.car1 p {
+  opacity: 60%;
+  font-size: 16px;
+}
+
+.arr {
+  gap: 16px;
+}
+.arr i {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.car i {
+  color: #ffc633;
+  font-size: 22px;
+}
+.car {
+  transition: transform 0.5s ease;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  gap: 2rem;
+}
+.bbtnn {
+  border: none;
+  background-color: white;
+}
+
+/* Header  */
+
+.head1 {
+  padding: 36px 64px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+.head1 h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.types {
+  background-color: white;
+  border-radius: 62px;
+  width: 70%;
+  padding: 8px 5px;
+}
+.types input{
+  border: none;
+  width: 100%;
+}
+.types input:focus{
+  outline: none;
+}
+.types i{
+  padding: 0 0 0 10px;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.579);
+}
+.btna button{
+  border-radius: 62px;
+  border: none;
+  padding: 14px 115px;
+}
+.head-cont{
+  position: relative;
+  top: 6rem;
+}
+
+/* Header-2  */
+.head2 {
+  background-color: #F0F0F0;
+  padding: 9rem 0 0 0;
+}
+
+.head2 h2{
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.head2 p{
+  font-size: 16px;
+  opacity: 60%;
+}
+.head2 i {
+  font-size: 28px;
+  
+}
+.head2 h1{
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.head2 span{
+  opacity: 60%;
+  font-size: 16px;
+}
+.hp {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  justify-content: flex-end;
+  
+}
+.hfp {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.hrow {
+  gap: 26px;
+  padding: 0 0 20px 0;
+}
+
+/* Final-Head  */
+.f-head p{
+  font-size: 14px;
+}

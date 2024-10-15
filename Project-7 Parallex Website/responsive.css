@@ -1,0 +1,24 @@
+@media (max-width: 610px) {
+    .spTxt {
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 6px;
+        word-spacing: 20px;
+        padding: 1rem;
+    }
+    .section2 {
+        padding: 0 3rem;
+    }
+    .h11 {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .para1 {
+        font-size: 12px;
+    }
+    .sptext5 {
+        font-size: 16px;
+        word-spacing: 2px;
+        padding: 1rem;
+    }
+}

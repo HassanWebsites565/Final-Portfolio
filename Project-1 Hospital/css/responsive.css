@@ -1,0 +1,163 @@
+@media (max-width: 1200px) {
+  .card {
+    padding: 2.5rem 1.8rem;
+  }
+  /* Header  */
+  .header-wraper .navbar-nav .nav-link {
+    font-size: 1rem;
+  }
+
+  .para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .para h4 {
+    width: 50%;
+    text-align: center;
+  }
+
+  /* About  */
+  .about-wraper .card {
+    width: 100%;
+  }
+
+  .about-wraper .about-animate {
+    left: 0.93rem;
+  }
+  /* Servicex  */
+  .services-wraper .card {
+    padding: 1.8rem 1.2rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .header-wraper {
+    padding: 1.1rem 0;
+  }
+  .btn {
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.6rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+  h5 {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+  }
+
+  .card {
+    padding: 1.8rem 1rem;
+  }
+
+  /* Nav bar ? */
+
+  /* Banner  */
+  .banner-wraper p {
+    width: 100%;
+  }
+
+  /* About  */
+  .about-wraper .about-clinic:nth-child(1),
+  .about-wraper .about-clinic:nth-child(1) {
+    margin-bottom: 1.5rem;
+  }
+
+  .about-wraper .about-clinic:nth-child(2),
+  .about-wraper .about-clinic:nth-child(4) {
+    padding-left: 2.2rem;
+  }
+  .about-wraper .about-animate {
+    width: 8rem;
+  }
+
+  /* Services  */
+  .services-wraper .card {
+    padding: 1.5rem 0.8rem;
+  }
+
+  /* Blog  */
+  .blog-wraper .card .blog-content {
+    padding: 1.8rem .6rem;
+  }
+}
+
+@media (max-width: 765px) {
+
+  .banner-wrapper .animate-img .aimg2
+  .banner-wrapper .animate-img .aimg1{
+    height: 9rem;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+  }
+  /* About  */
+  .about-wraper .about-animate {
+    width: 10rem;
+  }
+
+  /* Services  */
+  .services-wraper .card,
+  .services-wraper .card h4 {
+    text-align: center;
+  }
+  .services-wraper .card h4 {
+    width: 100%;
+  }
+  .services-wraper .card {
+    padding: 1.8rem 1.2rem;
+  }
+
+  /* Blog  */
+  .blog-wraper .card .blog-content {
+    margin: 0;
+  }
+}
+
+@media (max-width: 360px) {
+  /* Banner  */
+  
+
+  /* About  */
+  .about-wraper .about-animate {
+    width: 6rem;
+  }
+  .about-wraper .card {
+    padding: 1.2rem 0.3rem;
+  }
+  .about-wraper .about-clinic:nth-child(2),
+  .about-wraper .about-clinic:nth-child(4) {
+    padding-left: 0.6rem;
+  }
+
+  /* Services  */
+  .services-wraper .icon-box {
+    margin-bottom: 0.9rem;
+  }
+}

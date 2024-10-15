@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    font-family: "Roboto",  sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  2rem 5rem;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.cont a{
+    list-style: none;
+    text-decoration-line: none;
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in-out;
+    box-sizing: border-box;
+}
+.cont a:hover{
+    transition: 0.2s ease-in-out;
+    border-bottom: 2px solid rgb(178, 172, 172);
+}
+.svg{
+    height: 30px;
+    width: 30px;
+}
+.cont p{
+    font-size: 22px;
+}
+.po{
+    margin-right: 1rem;
+}
+/* Section 2  */
+.sec2{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    padding: 4rem 0;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 30%;
+}
+.para h1{
+    font-size: 5rem;
+}
+.para p{
+    font-size: 32px;
+    color: gray;
+}
+.img1 img{
+    height: 400px;
+}
+
+/* Section 3  */
+.sec3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec3-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    /* border: 1px solid gray; */
+    
+}
+.final{
+    display: flex;    
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0;
+}
+.sec3-paras{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem 5rem;
+    gap: 2rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+    border: 1px solid gray;
+}
+.sec3-paras > p{
+    color: gray;
+}
+.para2{
+    display: flex;
+    justify-content: space-between;
+}
+.dat {
+    color: gray;
+}
+.rm {
+    color: black;
+    font-weight: 500;
+}
+.img2, img, .sec3-paras{
+    height: 245px;
+}
+
+/* Section 4  */
+.card-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0rem;
+    gap: 4rem;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.09);
+}
+.card1 img{
+    height: 250px;
+    width: 350px;
+}
+
+.c-para{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem ;
+    gap: 2rem;
+}
+.c-para span{
+    color: gray;
+    font-size: 18px;
+}
+.c-p2{
+    display: flex;
+    justify-content: space-between;
+}
+.c-p2 p{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* Section 5  */
+.sec5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0rem 0 4rem 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.573);
+}
+.sec5-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 2rem 0;
+    height: 500px;
+}
+.img6 img{
+    height: 500px;
+}
+.sec5-para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem 8rem;
+    gap: 2rem;
+    width: 25%;
+    background-color: #F7FAFC;
+    height: 500px;
+}
+.sec5-para h1{
+    font-size: 3rem;
+}
+.sec5-para p{
+    color: gray;
+    font-size: 20px;
+    word-spacing: 2px;
+}
+.sec5-para span{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+.s5-para2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn{
+    padding: 0.5rem 1rem;
+    background-color: #6B46C1;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 6px;
+    margin-right: 10rem;
+    border: none;
+
+}
+.sec5-main{
+    display: flex;
+}
+.arrow {
+    height: 20px;
+    width: 22px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* Section 6  */
+.sec6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 8rem;
+}
+.svgsf{
+    display: flex;
+    gap: 2rem;
+    margin-right: 1em;
+}
+.sec6-para p{
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.bar-icon{
+    display: none;
+}
+.bar-icon div{
+    height: 6px;
+    width: 35px;
+    background-color: black;
+    margin: 6px;
+}
+
+@media(max-width: 1130px){
+    .card-cont{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        place-content: center;
+        place-items: center;
+    }
+    .sec2{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+        place-content: center;
+        place-items: center;
+    }
+    .sec3-cont{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        width: 50%;
+    }
+    .sec3-paras{
+        padding: 2rem;
+    }
+    .img2 img{
+        width: 100%;
+        height: 100%;
+    }
+    .sec5{
+        padding: 6rem 5rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 6rem;
+        place-content: center;
+        place-items: center;
+
+    }
+    .sec5-cont{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        place-content: center;
+        place-items: center;
+        gap: 4rem;
+    }
+    .sec5-para{
+        width: 60%;
+        padding: 0rem 2rem;
+        height: 100%;
+    }
+    .sec5-para h1{
+        font-size: 2rem;
+    }
+    .img6  img{
+        height: 350px;
+        width: 100%;
+    }
+    .sec6{
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+@media (max-width: 1024px) {
+    .para {
+        gap: 3rem;
+        width: 50%;
+    }
+    .sec2 {
+        gap: 4rem;
+    }
+    .sec5-para {
+        padding: 1rem 3rem;
+    }
+}
+
+@media (max-width: 780px) {
+    .bar-icon {
+        display: block;
+    }
+    .head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2rem;
+    }
+    .cont {
+        display: none;
+    }
+    .cont2 {
+        position: absolute;
+        top: 80px;
+        left: -33px;
+        width: 285%;
+        background-color: #f7f7f7;
+    }
+    .cont2 a{
+        display: flex;
+        justify-content: center; 
+        font-size: 24px;
+        margin: 2rem 0;
+        text-decoration: none;
+    }
+    .insta svg, .twit svg,  .linkd svg {
+        height: 50px;
+        width: 50px;
+    }
+    .po {
+        margin-right: 0rem;
+    }
+    .cont2 div {
+        display: flex;
+        justify-content: center;
+        margin: 2rem;
+    }
+    .nav-bar {
+        position: relative;
+    }
+    
+}
+
+
+
+
+

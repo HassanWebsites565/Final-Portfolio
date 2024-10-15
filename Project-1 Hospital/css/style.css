@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#about {
+    scroll-margin-top: 8rem
+}
+#team {
+    scroll-margin-top: 5rem
+}
+#gallery {
+    scroll-margin-top: 5rem
+}
+#testimonial {
+    scroll-margin-top: 5rem
+}
+#blog {
+    scroll-margin-top: 5rem
+}
+
+::-webkit-scrollbar {
+    width: .3rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(96, 173, 198);
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(235, 76, 102);
+}
+a {
+    text-decoration: none;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+
+
+
+.btn {
+    display: inline-block;
+    border: .0625rem solid white;
+    color: white;
+    font-size: 1rem;
+    background: transparent;
+    text-transform: capitalize;
+    border-radius: .1875rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgb(235, 76, 102);
+    border-color: rgb(235, 76, 102);
+    color: white;
+}
+
+.fill-btn {
+    background-color: rgb(235, 76, 102);
+    border-color: rgb(235, 76, 102);
+    color: white;
+}
+
+.fill-btn:hover {
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+h1{
+    font-size: 3.8rem;
+    margin-bottom: 1.2rem;
+    font-weight: 600;
+    color: white;
+    font-family: sans-serif;
+}
+h2{
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: white;
+    font-family: sans-serif;
+}
+h3{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+h4{
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    font-weight: 600;
+    color: black;
+    font-family: sans-serif;
+}
+h5{
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: black;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+    
+}
+h6{
+    font-size: .8rem;
+    line-height: 1.2rem;
+    font-weight: 500;
+    color: black;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1rem;
+    color: gray;
+    line-height: 1.6rem;
+}
+
+.card {
+    border-radius: .6rem;
+    background-color: white;
+    padding: 2.5rem 1.8rem;
+    box-shadow: .5rem 1.2rem 2.5rem 0 rgb(0 0 0 / 8%);
+    transition: all .4s;
+}
+
+@keyframes moveBounce {
+    0%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    50%{
+        -webkit-transform: translateY(1.2rem);
+        transform: translateY(1.2rem);
+    }
+    100%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    
+}
+
+.header-wraper .navbar{
+    padding: .9rem 0;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.header-wraper .navbar-toggler,
+.header-wraper .navbar-toggler:focus {
+    border: 0;
+    color: black;
+    line-height: 2;
+    box-shadow: none;
+}
+
+.header-wraper .nav-link {
+    margin: 0 .6rem;
+    font-weight: 400;
+    display: inline block;
+    font-size: 1.1rem;
+    font-family: "Poppins", sans-serif;
+    color: rgb(96, 173, 198) !important; 
+}
+
+.header-wraper .nav-link:hover,
+.header-wraper .nav-link:focus,
+.header-wraper .nav-link.active {
+    color: rgb(235, 76, 102) !important;
+}
+
+.header-wraper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: white;
+    box-shadow: .5rem 1.1rem 2.5rem 0 rgb(0 0 0 / 8%);
+    transition: 0.3s ease-in-out;
+}
+
+.banner-wrapper {
+    background-image: url(../images/top-banner-img/Top-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 12rem 0 7rem 0 !important;
+
+}
+.ca-ro{
+    padding: 3rem 2rem;
+}
+
+.banner-wrapper p {
+    max-width: 80%;
+    color: white;
+}
+
+.banner-wrapper .top-right-sec {
+    position: relative;
+    background-image: url('../images/top-banner-img/top-right-bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.banner-wrapper .animate-img {
+    position: absolute;
+    bottom: 60%;
+    left: 20%;
+    transform: translateX(-10%);
+    -webkit-transform: translateX(-50%);
+    z-index: 22;
+}
+
+.banner-wrapper .animate-img .aimg1 {
+    position: relative;
+    top: 14rem;
+    left: 4.6rem;
+    -webkit-animation-name: moveBounce;
+    animation-name: moveBounce;
+    -webkit-animation-delay: 100s;
+    animation-delay: 100ms;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    animation-direction: alternate; 
+    animation-direction: alternate;
+
+}
+
+.banner-wrapper .animate-img .aimg2 {
+    position: relative;
+    top: 14rem;
+    left: 11rem;
+    -webkit-animation-name: moveBounce;
+    animation-name: moveBounce;
+    -webkit-animation-delay: 200s;
+    animation-delay: 200ms;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-duration: 2.5s;
+    -webkit-animation-duration: 2.5s;
+    animation-direction: alternate; 
+    animation-direction: alternate;
+
+}
+
+.home .card:hover {
+    -webkit-transform:  translateY(-.6rem);
+    transform:  translateY(-.6rem);
+}
+
+.home .icon-box {
+    text-align: center;
+    margin: 0 auto 2.5rem;
+}
+
+/* About Section */
+.about-wraper h2 {
+    color: rgba(19, 18, 18, 0.93);
+}
+
+.about-wraper .card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-wraper .about-clinic {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.about-wraper .about-clinic:nth-child(1),
+.about-wraper .about-clinic:nth-child(1){
+    margin-bottom: 2.8rem;
+}
+
+.about-wraper .about-clinic:nth-child(2),
+.about-wraper .about-clinic:nth-child(4){
+    padding-left: 3.7rem;
+}
+.about-wraper .line-1,
+.about-wraper .line-2{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: .03rem;
+    height: 100%;
+    background: black;
+}
+
+.about-wraper .line-2{
+    width: 100%;
+    height: .0625rem;
+}
+
+.about-wraper .about-animate {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    -webkit-animation: moveBounce 3s linear infinite;
+    animation: moveBounce 3s linear infinite;
+}
+
+/* Services  */
+.services-wraper{
+    background-color: rgb(0, 116, 155);
+    padding: 5rem 0 !important;
+}
+.card-cont {
+    row-gap: 2rem;
+}
+.services-wraper .card{
+    background: transparent;
+    border: .06rem solid rgba(173, 216, 230, 0.656);
+    box-shadow: none;
+    padding: 2.5rem;
+}
+.services-wraper .card:hover{
+    background: rgba(86, 192, 227, 0.219);
+    cursor: cell;
+    border-color: transparent;
+}
+
+.services-wraper .card h4,
+.services-wraper .card p {
+    color: white;
+}
+
+.services-wraper .icon-box {
+    margin-bottom: 1.8rem;
+}
+
+/* Team Section  */
+.team-wraper .card{
+    padding: 1.2rem;
+}
+
+.team-wraper .card:hover{
+    -webkit-transform: translateY(-0.6rem);
+    transform: translateY(-0.6rem);
+}
+.team-wraper .team-img{
+    margin: 0 auto;
+
+}
+.team-wraper .team-info .social-network{
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    padding: .6rem 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.team-wraper .team-info .social-network li a{
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    display: block;
+    border-radius: .3rem;
+    margin: 0 .3rem;
+    font-size: .7rem;
+    background-color: #000;
+    color: white;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.team-wraper .team-info .social-network li a:hover{
+    background-color: rgb(235, 76, 102);
+}
+
+/* Gallery Section  */
+.gallery-wraper{
+    background-image: url('../images/gallery/gallery-background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gallery-wraper img{
+    border-radius: .9rem;
+}
+
+/* Testimonial  */
+.testimonial-wraper .card{
+    background-color: rgba(255, 81, 133, .05);
+}
+
+/* Appointment  */
+.appointment-wraper{
+    background-image: url(../images/appointmnet-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem 0;
+}
+
+/* Blog  */
+.blog-wraper .blog-content{
+    background-color: rgb(0, 116, 155);
+    padding: 2.5rem;
+}
+
+/* Footer  */
+.footer-wraper {
+    background-color: rgb(0, 116, 155);
+}
+.footer-wraper h5{
+    color: white;
+}
+
+.footer-wraper .contact-info ul a{
+    padding: 0;
+}
+
+.footer-wraper ul li{
+    margin-bottom: .5rem;
+    list-style: none;
+    font-size: .8rem;
+}
+
+.footer-wraper ul li a{
+    color: white;
+}
+
+.footer-wraper ul li a,
+.footer-wraper p{
+    color: white;
+    font-size: .8rem;
+    /* padding-left: 1.5rem; */
+    position: relative;
+    -webkit-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out;
+}
+.social-network {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-wraper ::placeholder{
+    color: white !important;
+}
+.footer-wraper .form-control{
+    color: white;
+}
+.footer-wraper .form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: white;
+}
+
+.footer-wraper .copyright-section {
+    background-color: rgb(72, 153, 180);
+    padding: 2rem 0 1rem 0;
+}
+
+.footer-wraper .copyright-section p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-wraper .copyright-section a{
+    color: white;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

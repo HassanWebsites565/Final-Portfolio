@@ -1,0 +1,606 @@
+@media (max-width: 1200px) {
+    /* Nav  */
+    .nav-list li{
+        font-size: 12px;
+    }
+    /* Home-page */
+    .imge {
+        height: 400px;
+        width: 400px;
+    }
+    .home-h{
+        font-size: 40px;
+    }
+    .para P{
+        font-size: 12px;
+    }
+    .btn button {
+        padding: 12px 34px;
+    }
+    .h-paras h1 {
+        font-size: 20px;
+    }
+    .h-paras p {
+        font-size: 12px;
+    }
+
+    /* Arrivals */
+    .imges{
+        height: 190px;
+        /* width: 10px; */
+    }
+    .kard h2{
+        font-size: 16px;
+    }
+    .kard h3{
+        font-size: 16px;
+    }
+    .price span{
+        font-size: 16px;
+    }
+    .price button {
+        font-size: 10px;
+        padding: 6px 10px;
+    }
+    /* Browse  */
+    
+    .pic2 { 
+        width: 328px;
+        
+    }
+    .pic {
+        gap: 12rem;
+    }
+    .pic h1 {
+        font-size: 16px;
+    }
+    .pi h1{
+        font-size: 16px;
+    }
+    .pic3 {
+        width: 365px;
+     
+    }
+    .pi {
+        gap: 8rem;
+    }
+    /* Header  */
+    .btna button {
+        padding: 14px 65px;
+        font-size: 14px;
+    }
+    .head1 h1{
+        font-size: 30px;
+    }
+    .head2 h2{
+        font-size: 22px;
+    }
+    .head2 p{
+        font-size: 14px;
+    }
+    .hfp{
+        gap: 18px;
+    }
+    .head2 i {
+        font-size: 20px;
+    }
+    .head2 h1{
+        font-size: 14px;
+    }
+    .head2 span{
+        font-size: 12px;
+    }
+   
+}
+
+@media (max-width: 993px) {
+    /* Home  */
+    .imge {
+        height: 375px;
+        width: 400px;
+    }
+    .home-h {
+        font-size: 30px;
+    }
+    .para P {
+        font-size: 10px;
+    }
+    .btn button {
+        padding: 12px 34px;
+    }
+    .btn button {
+        padding: 8px 26px;
+        font-size: 10px;
+    }
+    .h-paras {
+        padding: 15px 0 0 0;
+        gap: 15px;
+    }
+    .btn {
+        margin: 0px;
+    }
+    .h-paras p {
+        font-size: 10px;
+    }
+    .h-paras h1 {
+        font-size: 16px;
+    }
+
+    /* Arrivals  */
+    .N-Arival {
+        margin: 52px 0 0 0;
+    }
+    .Ariv h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .kard img {
+        height: 140px;
+        width: 120px;
+    }
+    .kard h2 {
+        font-size: 12px;
+        margin: 0;
+    }
+    .stars i {
+        padding: 0px 0 0px 0;
+        font-size: 12px;
+    }
+    .kard h3 {
+        font-size: 12px;
+    }
+    .price span {
+        font-size: 12px;
+    }
+    .price button {
+        font-size: 8px;
+        padding: 2px 7px;
+    }
+    .la-bt {
+        font-size: 12px;
+        padding: 7px 30px;
+        border-radius: 40px;
+        margin: 17px 0 0 0;
+    }
+    /* Browse  */
+    .br-se {
+        padding: 46px 64px;
+    }
+    .browse {
+        margin: 45px 0 0 0;
+    }
+    .br-h h1 {
+        font-size: 30px;
+    }
+    .br-se {
+        padding: 30px 30px;
+        border-radius: 40px;
+    }
+    /* Happy Client  */
+    .main-car h1{
+        font-size: 20px;
+    }
+    .car i {
+        font-size: 15px;
+    }
+    .car1 h1 {
+        font-size: 15px;
+    }
+    .car1 p {
+        font-size: 12px;
+    }
+    .car1 {
+        padding: 12px 15px;
+        margin: 25px 0 0 0;
+    }
+    .bbtnn i{
+        font-size: 18px;
+    }
+    .arr {
+        gap: 0px;
+    }
+    .car1 svg{
+        height: 18px;
+    }
+    /* Header  */
+    .head1 h1 {
+        font-size: 22px;
+    }
+    .types input {
+        font-size: 12px;
+    }
+    .types i {
+        font-size: 15px;
+    }
+    .types {
+        width: 80%;
+        padding: 6px 6px;
+    }
+    .btna button {
+        padding: 10px 50px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .head1 {
+        padding: 24px 80px;
+    }
+    .head2 p {
+        font-size: 10px;
+    }
+    .payments svg{
+        height: 36px;
+    }
+    .hfp {
+        gap: 20px;
+    }
+    .head2 p {
+        font-size: 12px;
+    }
+    .hfp {
+        gap: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Nav Bar */
+    .nav2 {
+        display: none;
+    }
+    .nav1 {
+        font-size: 28px;
+        cursor: pointer;
+    }
+    
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: -220px;
+        top: 78px;
+        background-color: white;
+        padding: 10px;
+        width: 30%;
+        z-index: 2;
+        height: 74%;
+        align-items: center;
+        transition: 0.5s ease;
+    }
+    .listl-nav{
+
+        display: flex;
+    }
+    .nav-list li {
+        width: 80%;
+        cursor: pointer;
+        margin-left: 2rem;
+        display: flex;
+        align-items: center;
+    }
+    .search {
+        display: none;
+        background-color: white;
+    }
+    .se-ic {
+        background-color: white;
+    }
+    .se-ic i{
+        opacity: 100%;
+        font-size: 23px;
+    }
+    .nv-ct{
+        /* gap: 0px; */
+        justify-content: space-between;
+    }
+    .text-nav i{
+        position: relative;
+        left: 20px;
+    }
+
+    /* Home  */
+    .home-h {
+        font-size: 22px;
+    }
+    .para P {
+        font-size: 9px;
+    }
+    .btn button {
+        padding: 5px 20px;
+        font-size: 8px;
+    }
+    .h-paras h1 {
+        font-size: 12px;
+    }
+    .h-paras p {
+        font-size: 8px;
+    }
+    .imge {
+        height: 100%;
+        width: 100%;
+    }
+    .home-h {
+        margin: 2rem 0 1rem 0;
+    }
+    .para P {
+        margin: 0 0 6px 0;
+    }
+    .h-paras {
+        padding: 8px 0 0 0;
+    }
+    .imge {
+        margin: 0rem 0 0 0
+    }   
+    /* Brand  */
+    
+
+    /* Arrivals  */
+    .Ariv h1 {
+        font-size: 24px;
+    }
+    .imges {
+        height: 180px;
+    }
+    .kard img {
+        height: 90px;
+        width: 100%;
+    }
+    /* Happy Client  */
+    .car i {
+        font-size: 10px;
+    }
+    .car1 h1 {
+        font-size: 11px;
+    }
+    .car1 svg {
+        height: 13px;
+    }
+    .car1 p {
+        font-size: 10px;
+    }
+    /* Header */
+    .head1 h1 {
+        font-size: 14px;
+    }
+    .types input {
+        font-size: 8px;
+    }
+    .types i {
+        font-size: 10px;
+    }
+    .btna button {
+        padding: 6px 32px;
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .types {
+        width: 100%;
+    }
+    .head1 .hea {
+        padding: 1rem 0;
+    }
+    .head2 p {
+        font-size: 9px;
+    }
+    .head2 p {
+        font-size: 13px;
+    }
+    .hfp {
+        gap: 18px;
+    }
+    hr {
+        margin-top: 1rem;
+    }
+    .f-head p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Nav Bar */
+    .nav-logo{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        /* width: 30% */
+    }
+    .text-nav {
+        width: 10%;
+    }
+    .nv-ct {
+        padding: 0 25px;
+    }      
+    .text-nav i {
+        position: static;
+    }
+    .nav2 {
+        display: none;
+    }
+    .nav1 {
+        font-size: 28px;
+        cursor: pointer;
+    }
+    
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: -220px;
+        top: 78px;
+        background-color: white;
+        padding: 10px;
+        width: 30%;
+        z-index: 2;
+        height: 74%;
+        align-items: center;
+        transition: 0.5s ease;
+    }
+    .listl-nav{
+
+        display: flex;
+    }
+    .nav-list li {
+        width: 80%;
+        cursor: pointer;
+        margin-left: 2rem;
+        display: flex;
+        align-items: center;
+    }
+    .search {
+        display: none;
+        background-color: white;
+    }
+    .se-ic {
+        background-color: white;
+    }
+    .se-ic i{
+        opacity: 100%;
+        font-size: 23px;
+    }
+    .nv-ct{
+        /* gap: 0px; */
+        justify-content: space-between;
+    }
+    
+    /* Home  */
+    .mb-home{
+        display: flex;
+        gap: 4px;
+        justify-content: center;
+        align-items: center;
+    }
+    /* .mbh{
+        margin: auto;
+    } */
+    .home-h {
+        font-size: 30px;
+    }
+    .para P {
+        font-size: 14px;
+    }
+    .btn button {
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+    .br-h{
+        justify-content: center;
+        align-items: center;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn button {
+        padding: 10px 78px;
+        font-size: 15px;
+    }
+    .h-paras h1 {
+        font-size: 16px;
+    }
+    .h-paras {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 23px;
+    }
+    .b-h{
+        gap: 1rem;
+    }
+
+    .brand {
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .br-img{
+        margin: 0 1rem;
+    }
+    /* Arrivals  */
+    .kardes{
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .kard{
+        margin: 0 2rem;
+    }
+    .Ariv {
+        padding: 0 0 30px 0px;
+    }
+    /* Browse  */
+    .br-h h1 {
+        font-size: 24px;
+    }
+    .bimg-cont{
+        padding: 0 1rem;
+        flex-wrap: wrap;
+    }
+    .b-img {
+        height: 200px;
+        width: 308px;
+        margin: 0 2rem;
+    }
+    .bimg-cont{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .bimg-cont2{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    /* Happy Client  */
+    .main-car{
+        padding: 0 2rem;
+    }
+    .main-car h1 {
+        font-size: 30px;
+    }
+    .bbtnn i {
+        font-size: 30px;
+    }
+    .car1 {
+        width: 50%;
+    }
+    .hea, .hea2{
+        margin: 0 2rem;
+        text-align: center;
+    }
+    .head1{
+        justify-content: center;
+        align-items: center;
+    }
+    .head1 {
+        padding: 16px 8px;
+    }
+    .btna button {
+        padding: 6px 46px;
+    }
+    .hrow .col-3{
+        width: 100%;
+    }
+    .f-2{
+        width: 40%;
+    }
+    .f-3{
+        justify-content: center;
+        width: 40%;
+    }
+    .f-4{
+        width: 40%;
+    }
+    .f-5{
+        width: 40%;
+    }
+    .hrow {
+        padding: 0 2rem;
+    }
+    .f-head p {
+        font-size: 8px;
+        padding: 0 0 0 8px;
+    }
+}
