@@ -33,8 +33,6 @@
       "src": "images/About.jpg",
       "use": "@vercel/static"
     },
-  
-    
     {
       "src": "skills-img/bootstrap.jpeg",
       "use": "@vercel/static"
@@ -75,8 +73,6 @@
       "src": "images/main-img.png",
       "use": "@vercel/static"
     },
-    
-
     {
       "src": "Project-img/pro-1.png",
       "use": "@vercel/static"
@@ -125,8 +121,6 @@
       "src": "Project-img/pro12.png",
       "use": "@vercel/static"
     },
-
-
     {
       "src": "Project-1 Hospital/hospital.html",
       "use": "@vercel/static"
@@ -136,8 +130,6 @@
       "use": "@vercel/static"
     }
   ],
-
-
   "routes": [
     {
       "src": "/css/(.*)",
@@ -164,8 +156,12 @@
       "dest": "/images/$1"
     },
     {
-      "src": "/images/logo.jpg(.*)",
-      "dest": "/images/logo.jpg$1"
+      "src": "/Project-1 Hospital/hospital.html",
+      "dest": "/Project-1 Hospital/hospital.html"
+    },
+    {
+      "src": "/Project-2 E-Commerce/commerce.html",
+      "dest": "/Project-2 E-Commerce/commerce.html"
     },
     {
       "src": "/(.*)",
