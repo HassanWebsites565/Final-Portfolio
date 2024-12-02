@@ -193,9 +193,6 @@ ul li:hover {
 }
 
 .pic {
-  /* padding: 3rem; */
-  background-color: rgb(1 1 58);
-  border: 1px solid rgb(1 1 58);
   text-align: center;
   transition: box-shadow 0.2s ease-in-out;
 }
