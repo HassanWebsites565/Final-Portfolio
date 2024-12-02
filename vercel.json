@@ -124,6 +124,12 @@
     {
       "src": "Project-img/pro12.png",
       "use": "@vercel/static"
+    },
+
+
+    {
+      "src": "Project-2 E-Commerce/index.html",
+      "use": "@vercel/static"
     }
   ],
 
