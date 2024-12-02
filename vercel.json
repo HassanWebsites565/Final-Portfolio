@@ -130,6 +130,10 @@
     {
       "src": "Project-2 E-Commerce/index.html",
       "use": "@vercel/static"
+    },
+    {
+      "src": "Project-3 Real-Estate/index.html",
+      "use": "@vercel/static"
     }
   ],
 
