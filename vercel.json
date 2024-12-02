@@ -74,8 +74,60 @@
     {
       "src": "images/main-img.png",
       "use": "@vercel/static"
+    },
+    
+
+    {
+      "src": "Project-img/pro-1.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-img/pro-2.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-img/pro-3.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-img/pro-4.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-img/pro-5.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-img/pro-6.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-img/pro-7.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-img/pro-8.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-img/pro-9.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-img/pro-10.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-img/pro-11.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-img/pro-12.png",
+      "use": "@vercel/static"
     }
   ],
+
+
   "routes": [
     {
       "src": "/css/(.*)",
