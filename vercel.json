@@ -82,47 +82,47 @@
       "use": "@vercel/static"
     },
     {
-      "src": "Project-img/pro-2.png",
+      "src": "Project-img/pro2.png",
       "use": "@vercel/static"
     },
     {
-      "src": "Project-img/pro-3.png",
+      "src": "Project-img/pro3.png",
       "use": "@vercel/static"
     },
     {
-      "src": "Project-img/pro-4.png",
+      "src": "Project-img/pro4.png",
       "use": "@vercel/static"
     },
     {
-      "src": "Project-img/pro-5.png",
+      "src": "Project-img/pro5.png",
       "use": "@vercel/static"
     },
     {
-      "src": "Project-img/pro-6.png",
+      "src": "Project-img/pro6.png",
       "use": "@vercel/static"
     },
     {
-      "src": "Project-img/pro-7.png",
+      "src": "Project-img/pro7.png",
       "use": "@vercel/static"
     },
     {
-      "src": "Project-img/pro-8.png",
+      "src": "Project-img/pro8.png",
       "use": "@vercel/static"
     },
     {
-      "src": "Project-img/pro-9.png",
+      "src": "Project-img/pro9.png",
       "use": "@vercel/static"
     },
     {
-      "src": "Project-img/pro-10.png",
+      "src": "Project-img/pro10.png",
       "use": "@vercel/static"
     },
     {
-      "src": "Project-img/pro-11.png",
+      "src": "Project-img/pro11.png",
       "use": "@vercel/static"
     },
     {
-      "src": "Project-img/pro-12.png",
+      "src": "Project-img/pro12.png",
       "use": "@vercel/static"
     }
   ],
