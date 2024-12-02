@@ -128,11 +128,11 @@
 
 
     {
-      "src": "Project-2 E-Commerce/index.html",
+      "src": "Project-1 Hospital/hospital.html",
       "use": "@vercel/static"
     },
     {
-      "src": "Project-3 Real-Estate/index.html",
+      "src": "Project-2 E-Commerce/commerce.html",
       "use": "@vercel/static"
     }
   ],
