@@ -28,6 +28,10 @@
       {
         "src": "images/logo.jpg",
         "use": "@vercel/static"
+      },
+      {
+        "src": "images/logo.jpg",
+        "use": "@vercel/static"
       }
     ],
     "routes": [
