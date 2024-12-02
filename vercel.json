@@ -33,8 +33,42 @@
       "src": "images/About.jpg",
       "use": "@vercel/static"
     },
+  
+    
     {
-      "src": "/skills-img/(.*)",
+      "src": "skills-img/bootstrap.jpeg",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "skills-img/css.jpeg",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "skills-img/Figma.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "skills-img/git.jpeg",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "skills-img/github.jpg",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "skills-img/html.jpeg",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "skills-img/js.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "skills-img/tailwind.jpeg",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "skills-img/vs.jpeg",
       "use": "@vercel/static"
     },
     {
