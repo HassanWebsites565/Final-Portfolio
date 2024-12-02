@@ -24,6 +24,10 @@
       {
         "src": "images/favicon.png",
         "use": "@vercel/static"
+      },
+      {
+        "src": "images/logo.jpg",
+        "use": "@vercel/static"
       }
     ],
     "routes": [
@@ -42,6 +46,10 @@
       {
         "src": "/images/(.*)",
         "dest": "/images/$1"
+      },
+      {
+        "src": "/images/logo.jpg(.*)",
+        "dest": "/images/logo.jpg$1"
       },
       {
         "src": "/(.*)",
