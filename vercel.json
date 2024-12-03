@@ -123,11 +123,43 @@
       "use": "@vercel/static"
     },
     {
-      "src": "Project-1 Hospital/hospital.html",
+      "src": "Project-1-Hospital/hospital.html",
       "use": "@vercel/static"
     },
     {
-      "src": "Project-2 E-Commerce/commerce.html",
+      "src": "Project-3 Real-Estate/index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-4-Restaurant-Website/index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-1-Hospital/hospital.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-1-Hospital/hospital.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-1-Hospital/hospital.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-1-Hospital/hospital.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-1-Hospital/hospital.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-1-Hospital/hospital.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-2-E-Commerce/commerce.html",
       "use": "@vercel/static"
     }
   ],
