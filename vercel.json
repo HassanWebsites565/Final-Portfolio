@@ -135,15 +135,15 @@
       "use": "@vercel/static"
     },
     {
-      "src": "Project-1-Music/index.html",
+      "src": "Project-5-Music-Website/index.html",
       "use": "@vercel/static"
     },
     {
-      "src": "Project-1-Hospital/hospital.html",
+      "src": "Project-7-Parallex-Website/index.html",
       "use": "@vercel/static"
     },
     {
-      "src": "Project-1-Blog/index.html",
+      "src": "Project-6-Blog/home.html",
       "use": "@vercel/static"
     },
     {
