@@ -1,0 +1,200 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "css/style.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "css/responsive.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "bootstrap-5.2.3-dist/css/bootstrap.min.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "bootstrap-5.2.3-dist/js/bootstrap.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "images/favicon.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "images/logo.jpg",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "images/About.jpg",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "skills-img/bootstrap.jpeg",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "skills-img/css.jpeg",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "skills-img/Figma.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "skills-img/git.jpeg",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "skills-img/github.jpg",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "skills-img/html.jpeg",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "skills-img/js.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "skills-img/tailwind.jpeg",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "skills-img/vs.jpeg",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "images/main-img.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-img/pro-1.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-img/pro2.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-img/pro3.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-img/pro4.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-img/pro5.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-img/pro6.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-img/pro7.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-img/pro8.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-img/pro9.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-img/pro10.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-img/pro11.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-img/pro12.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-1-Hospital/hospital.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-3 Real-Estate/index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-4-Restaurant-Website/index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-5-Music-Website/index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-7-Parallex-Website/index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-6-Blog/home.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-1-Hospital/hospital.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-1-Hospital/hospital.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-1-Hospital/hospital.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Project-2-E-Commerce/commerce.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/css/(.*)",
+      "dest": "/css/$1"
+    },
+    {
+      "src": "/skills-img/(.*)",
+      "dest": "/skills-img/$1"
+    },
+    {
+      "src": "/Project-img/(.*)",
+      "dest": "/Project-img/$1"
+    },
+    {
+      "src": "/bootstrap-5.2.3-dist/css/(.*)",
+      "dest": "/bootstrap-5.2.3-dist/css/$1"
+    },
+    {
+      "src": "/bootstrap-5.2.3-dist/js/(.*)",
+      "dest": "/bootstrap-5.2.3-dist/js/$1"
+    },
+    {
+      "src": "/images/(.*)",
+      "dest": "/images/$1"
+    },
+    {
+      "src": "/Project-1 Hospital/hospital.html",
+      "dest": "/Project-1 Hospital/hospital.html"
+    },
+    {
+      "src": "/Project-2 E-Commerce/commerce.html",
+      "dest": "/Project-2 E-Commerce/commerce.html"
+    }
+   
+  ]
+}
