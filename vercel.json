@@ -135,7 +135,7 @@
       "use": "@vercel/static"
     },
     {
-      "src": "Project-1-Hospital/hospital.html",
+      "src": "Project-1-Music/index.html",
       "use": "@vercel/static"
     },
     {
@@ -143,7 +143,7 @@
       "use": "@vercel/static"
     },
     {
-      "src": "Project-1-Hospital/hospital.html",
+      "src": "Project-1-Blog/index.html",
       "use": "@vercel/static"
     },
     {
