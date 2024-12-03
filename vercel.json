@@ -154,11 +154,11 @@
       "use": "@vercel/static"
     },
     {
-      "src": "Project-1-Hospital/hospital.html",
+      "src": "Project-2-E-Commerce/commerce.html",
       "use": "@vercel/static"
     },
     {
-      "src": "Project-2-E-Commerce/commerce.html",
+      "src": "index.js",
       "use": "@vercel/static"
     }
   ],
